@@ -3,6 +3,7 @@ import Section from '../layout/Section';
 
 const StorySection: React.FC = () => {
   return (
+    /* Story section: frame motivations and trade-offs; stay candid and operator-centric. */
     <Section
       kicker="Story"
       title="Why bother with yet another ZFS helper?"
