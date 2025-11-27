@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   return (
     <div className="lc-footer-inner">
       <div>
-        <div>© {year} LockChain ZFS.</div>
+        <div>© {year} LockChain.</div>
         <div>Exploring safer unlock workflows for encrypted ZFS at early boot.</div>
       </div>
 
@@ -17,20 +17,6 @@ const Footer: React.FC = () => {
           rel="noopener noreferrer"
         >
           GitHub
-        </a>
-        <a
-          href="https://github.com/x4ngus/lockchain-zfs/tree/main/docs"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Docs
-        </a>
-        <a
-          href="https://github.com/x4ngus/lockchain-zfs/security"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Security policy
         </a>
       </div>
     </div>

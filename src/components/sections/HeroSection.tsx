@@ -18,14 +18,13 @@ const HeroSection: React.FC = () => {
     <div className="lc-hero-inner">
       {/* Hero copy: keep the voice plainspoken and operator-first; highlight problem, ambition, and how to engage. */}
       <div className="lc-hero-copy">
-        <div className="lc-hero-kicker">Rust · ZFS · Early boot</div>
+        <div className="lc-hero-kicker">ZFS · USB · Headless boot</div>
         <h1 className="lc-hero-title">
-          A security chain for encrypted ZFS that operators can actually read.
+          A security key chain for paranoid lovers of encryption.
         </h1>
         <p className="lc-hero-tagline">
-          LockChain ZFS pairs Rust-first tooling with a transparent policy engine so you can unlock encrypted
-          pools during early boot without losing observability or control. Designed to match the austere style
-          of the upstream project, but with a calmer interface built for long nights in the lab.
+          LockChain pairs modern Rust software tooling with a transparent policy engine so you can unlock encrypted
+          drives during early boot stages of Linux without losing observability or control.
         </p>
 
         <div className="lc-hero-actions">
@@ -38,29 +37,19 @@ const HeroSection: React.FC = () => {
             <ArrowRight /> View project on GitHub
           </a>
           <a href="#overview" className="lc-btn lc-btn--ghost">
-            <Shield /> Explore the idea
+            <Shield /> Explore the idea first
           </a>
-        </div>
-
-        <div className="lc-hero-meta">
-          {/* Badges are quick scannable facts; avoid marketing fluff here. */}
-          <span className="lc-badge">Rust 2021</span>
-          <span className="lc-badge">Encrypted ZFS</span>
-          <span className="lc-badge">CLI · Daemon · USB watcher · TUI</span>
         </div>
       </div>
 
       <div className="lc-hero-visual">
         <div className="lc-hero-card">
-          <div className="lc-pill">
-            <Shield /> Policy-first flow
-          </div>
           {/* Card answers “why” in one paragraph; stay honest about pain points and intent. */}
           <strong>What problem is LockChain trying to solve?</strong>
           <p style={{ margin: 0 }}>
-            Encrypted storage is good. Wrestling with it at 03:00 on a degraded host is not. LockChain&apos;s
-            ambition is a single, explicit workflow for unlocking encrypted ZFS datasets at early boot –
-            visible to operators, friendly to automation, and honest about the trade-offs.
+            Encrypted storage is good. Locked out and wrestling with it at midnight is not. LockChain&apos;s
+            ambition is a single, explicit workflow for unlocking encrypted datasets at early boot –
+            Easy for system admins, fully automated for users, and transparent for everyone.
           </p>
         </div>
       </div>

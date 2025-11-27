@@ -26,10 +26,8 @@ const Navbar: React.FC = () => {
     <header className="lc-navbar">
       <div className="lc-container lc-navbar-inner">
         <a href="#top" onClick={close} aria-label="LockChain ZFS home" className="lc-navbar-brand">
-          <div className="lc-logo-mark">LC</div>
           <div className="lc-navbar-title">
-            <span className="lc-navbar-title-main">LockChain ZFS</span>
-            <span className="lc-navbar-title-sub">Encrypted storage, early boot clarity</span>
+            <span className="lc-navbar-title-main">LockChain</span>
           </div>
         </a>
 
