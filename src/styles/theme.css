@@ -1,0 +1,35 @@
+
+---
+
+## 3. Styles (modern, minimal, dark)
+
+### `src/styles/theme.css`
+
+```css
+:root {
+  --lc-bg: #050711;
+  --lc-bg-elevated: #0a0f1f;
+  --lc-surface: #0d1224;
+
+  --lc-border-subtle: #1f2933;
+  --lc-border-strong: #374151;
+
+  --lc-text: #e5e7eb;
+  --lc-text-muted: #9ca3af;
+  --lc-text-soft: #6b7280;
+
+  --lc-accent: #40e0ff;
+  --lc-accent-soft: rgba(64, 224, 255, 0.16);
+  --lc-accent-strong: #22d3ee;
+  --lc-accent-secondary: #ff3dae;
+  --lc-warning: #ffb347;
+
+  --lc-radius-lg: 18px;
+  --lc-radius-md: 12px;
+  --lc-radius-sm: 8px;
+
+  --lc-shadow-soft: 0 20px 60px rgba(0, 0, 0, 0.75);
+
+  --lc-font-heading: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --lc-font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
