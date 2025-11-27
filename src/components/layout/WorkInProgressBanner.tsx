@@ -1,17 +1,15 @@
 import React from 'react';
 
-const WorkInProgressBanner: React.FC = () => {
-  return (
-    <div className="lc-wip-banner">
-      <div className="lc-container lc-wip-banner-inner">
-        <span className="lc-wip-pill">Work in progress</span>
-        <span>
-          LockChain ZFS is an evolving 0.x series project. Behaviour, flags and UX may change between
-          releases; always treat the README and docs as the source of truth.
-        </span>
-      </div>
+const WorkInProgressBanner: React.FC = () => (
+  <div className="lc-banner" role="note" aria-label="Work in progress notice">
+    <div className="lc-container lc-banner-inner">
+      <span className="lc-banner-badge">Work in progress</span>
+      <span>
+        LockChain ZFS is evolving in the open. Behaviour, flags and UX may change; the repository is the
+        canonical source of truth.
+      </span>
     </div>
-  );
-};
+  </div>
+);
 
 export default WorkInProgressBanner;
