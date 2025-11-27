@@ -8,6 +8,13 @@ const NAV_ITEMS = [
   { label: 'Links', href: '#links' }
 ];
 
+const ArrowTopRight = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+    <path d="M7 17L17 7" />
+    <path d="M9 7h8v8" />
+  </svg>
+);
+
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
 
@@ -17,10 +24,11 @@ const Navbar: React.FC = () => {
   return (
     <header className="lc-navbar">
       <div className="lc-container lc-navbar-inner">
-        <a href="#top" onClick={close} aria-label="LockChain ZFS home">
+        <a href="#top" onClick={close} aria-label="LockChain ZFS home" className="lc-navbar-brand">
+          <div className="lc-logo-mark">LC</div>
           <div className="lc-navbar-title">
-            <span className="lc-navbar-title-main">LOCKCHAIN ZFS</span>
-            <span className="lc-navbar-title-sub">Security chain for encrypted storage</span>
+            <span className="lc-navbar-title-main">LockChain ZFS</span>
+            <span className="lc-navbar-title-sub">Encrypted storage, early boot clarity</span>
           </div>
         </a>
 
@@ -53,7 +61,7 @@ const Navbar: React.FC = () => {
                 rel="noopener noreferrer"
                 className="lc-btn lc-btn--ghost"
               >
-                GitHub
+                <ArrowTopRight /> GitHub
               </a>
             </div>
           </div>

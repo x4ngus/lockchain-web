@@ -1,34 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
 
----
-
-## 3. Styles (modern, minimal, dark)
-
-### `src/styles/theme.css`
-
-```css
 :root {
-  --lc-bg: #050711;
-  --lc-bg-elevated: #0a0f1f;
-  --lc-surface: #0d1224;
+  --lc-bg: #03030a;
+  --lc-surface: #0b1021;
+  --lc-surface-strong: #0f162b;
+  --lc-overlay: rgba(6, 10, 24, 0.75);
 
-  --lc-border-subtle: #1f2933;
-  --lc-border-strong: #374151;
+  --lc-border-subtle: rgba(255, 255, 255, 0.07);
+  --lc-border-strong: rgba(255, 255, 255, 0.12);
 
-  --lc-text: #e5e7eb;
-  --lc-text-muted: #9ca3af;
-  --lc-text-soft: #6b7280;
+  --lc-text: #e8edf6;
+  --lc-text-muted: #b9c2d5;
+  --lc-text-soft: #7f8ba6;
 
-  --lc-accent: #40e0ff;
-  --lc-accent-soft: rgba(64, 224, 255, 0.16);
-  --lc-accent-strong: #22d3ee;
-  --lc-accent-secondary: #ff3dae;
-  --lc-warning: #ffb347;
+  --lc-accent: #4ff5ce;
+  --lc-accent-strong: #80ffd1;
+  --lc-accent-secondary: #7ca2ff;
+  --lc-glow: rgba(79, 245, 206, 0.18);
 
+  --lc-radius-xl: 28px;
   --lc-radius-lg: 18px;
   --lc-radius-md: 12px;
-  --lc-radius-sm: 8px;
+  --lc-radius-sm: 9px;
 
-  --lc-shadow-soft: 0 20px 60px rgba(0, 0, 0, 0.75);
+  --lc-shadow-soft: 0 25px 70px rgba(0, 0, 0, 0.35);
+  --lc-shadow-strong: 0 30px 120px rgba(0, 0, 0, 0.55);
 
   --lc-font-heading: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --lc-font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
